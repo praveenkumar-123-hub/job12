@@ -1,0 +1,17 @@
+{
+  "name": "cynbit-devops-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo Express service with Docker and GitHub Actions CI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
